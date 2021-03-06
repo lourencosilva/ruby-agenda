@@ -1,24 +1,11 @@
-# README
+Fiz a instalação dessa gem rails_admin
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Installation
 
-Things you may want to cover:
+    On your gemfile: gem 'rails_admin', '~> 2.0'
+    Run bundle install
+    Run rails g rails_admin:install
+    Provide a namespace for the routes when asked
+    Start a server rails s and administer your data at /admin. (if you chose default namespace: /admin)
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
