@@ -6,7 +6,6 @@ class CreateOrders < ActiveRecord::Migration[6.1]
       t.Integer :codvendedor
       t.string :subtotal
       t.string :total
-
       t.timestamps
     end
   end
